@@ -59,3 +59,39 @@ chmod +x bug-detector.sh
 
 # Run
 ./bug-detector.sh
+
+Quick Commands:
+# Clone and run in one line
+git clone https://github.com/kevinharryox/bug-detector.git && cd bug-detector && chmod +x bug-detector.sh && sudo ./bug-detector.sh
+
+# Create alias for quick access
+alias bugscan='sudo /path/to/bug-detector.sh'
+
+# Run with specific target (modified version)
+echo "https://target.com" | ./bug-detector.sh
+
+## Tags for GitHub Repository
+
+```yaml
+topics:
+  - security-scanner
+  - vulnerability-scanner
+  - web-security
+  - penetration-testing
+  - ethical-hacking
+  - sql-injection
+  - xss-detection
+  - kali-linux
+  - bug-bounty
+  - cybersecurity
+  bug-detector/
+├── bug-detector.sh          # Main script
+├── README.md                # Documentation
+├── LICENSE                  # MIT License
+├── CHANGELOG.md            # Version history
+├── CONTRIBUTING.md         # Contribution guidelines
+├── examples/               # Example outputs
+│   └── sample_report.txt
+└── docs/                   # Additional documentation
+    ├── installation.md
+    └── troubleshooting.md
